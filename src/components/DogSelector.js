@@ -8,6 +8,7 @@ const DogSelector = ({ breads, setHasChild, setChild, setImage }) => {
             setHasChild(true)
             setChild(sub)
         }
+        setImage(e.target.value)
     }
 
     return (
